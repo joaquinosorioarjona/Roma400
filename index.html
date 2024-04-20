@@ -145,6 +145,7 @@
 	  const prefecturas = new FeatureLayer({
 		url: "https://services1.arcgis.com/wKWg6g7Ozgov9sfw/arcgis/rest/services/Roma395_WFL1/FeatureServer/4",
 		title: "Prefecturas del Imperio Romano",
+		visible: false,
 		popupTemplate: template1
 	  });
 	  map.add(prefecturas);
@@ -174,7 +175,6 @@
 	 const ciudades = new FeatureLayer({
 		url: "https://services1.arcgis.com/wKWg6g7Ozgov9sfw/arcgis/rest/services/Roma395_WFL1/FeatureServer/0",
 		title: "Ciudades del Imperio Romano",
-		visible: false,
 		popupTemplate: template0
 	  });
 	 map.add(ciudades);
